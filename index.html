@@ -251,8 +251,9 @@
               <img src=".\Layer2.svg" alt="" style="position: absolute;top: 5%; left: 5% ;width: 65.2px; height: 29.2px">
               <span  
                 style="text-align: left; font-size: 32px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 1.12;letter-spacing: normal;color: #ffffff;position: absolute; top: 15vh; left: 5%;">Virtual
-                Offices <br> in <span class="typewrite" data-period="1000" data-type='[ "Gurgaon", "Delhi", "Noida", "Mumbai" , "Hyderabad" , "South India"]' class="wrap"></span></span>
+                Offices <br> in <span class="typewrite" data-period="1000" data-type='[ "Gurgaon", "Delhi", "Noida", "Mumbai" , "Bangalore" , "South India"]' class="wrap"></span></span>
             </div>
+            
             <div class="col-sm-12" style="text-align: center;">
               <p
                 style="text-align: center;font-size: 18px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 0.78;letter-spacing: normal;color: var(--charcoal-grey);    margin-top: 40px;">
@@ -338,37 +339,37 @@
           <div >
             <div 
             style="  width: 326px;height: 321px;object-fit: contain;border-radius: 10px;border: solid 1px #767676;background-color: #ffffff;display: inline-block;margin-bottom: 28px;">
-            <img src="./man2.svg" alt="" style="margin-top: 25px;width: 135px;height: 95px;">
+            <img src="./man2.svg" alt="tick" style="margin-top: 25px;width: 135px;height: 95px;">
             <p
               style="  font-size: 16px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.25;letter-spacing: normal;color: var(--charcoal-grey);margin: 0px;padding-bottom: 15px;padding-top: 15px;">
               Virtual Office for Mailing</p>
             <p
               style="  font-size: 14px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.8;letter-spacing: normal;text-align: center;color: var(--charcoal-grey);margin: 0px;padding-bottom: 15px;">
-              <img src="./signs.svg" alt=""> Receive Company’s mails</p>
+              <img src="./signs.svg" alt="tick"> GST Business Address</p>
             <p
               style="  font-size: 14px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.8;letter-spacing: normal;text-align:center;color: var(--charcoal-grey);margin: 0px;padding-bottom: 15px;">
-              <img src="./signs.svg" alt=""> Receive Company’s couriers</p>
+              <img src="./signs.svg" alt="tick"> State-wise GST Registration</p>
             <p
               style="  font-size: 14px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.8;letter-spacing: normal;text-align:center;color: var(--charcoal-grey);margin: 0px;padding-bottom: 15px;">
-              <img src="./signs.svg" alt=""> Professional Safe keeping</p>
+              <img src="./signs.svg" alt="tick"> Acquire NOC, Signage</p>
           </div>
           </div>
             <div >
                  <div
                 style=" width: 286px;height: 305px;object-fit: contain;border-radius: 10px;border: solid 1px #d6d6d6;background-color: #ffffff;display: inline-block;margin-bottom: 28px;">
-                <img src="./mail(3).svg" alt="" style="margin-top: 25px;width: 135px;height: 95px;">
+                <img src="./mail(3).svg" alt="tick" style="margin-top: 25px;width: 135px;height: 95px;">
                 <p
                   style="  font-size: 16px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.25;letter-spacing: normal;color: var(--charcoal-grey);margin: 0px;padding-bottom: 15px;padding-top: 15px;">
                   Virtual Office for Mailing</p>
                 <p
                   style="  font-size: 14px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.8;letter-spacing: normal;text-align: center;color: var(--charcoal-grey);margin: 0px;padding-bottom: 15px;">
-                  <img src="./signs.svg" alt=""> Receive Company’s mails</p>
+                  <img src="./signs.svg" alt="tick"> Registered Business Address</p>
                 <p
                   style="  font-size: 14px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.8;letter-spacing: normal;text-align:center;color: var(--charcoal-grey);margin: 0px;padding-bottom: 15px;">
-                  <img src="./signs.svg" alt=""> Receive Company’s couriers</p>
+                  <img src="./signs.svg" alt="tick"> GST Business Address</p>
                 <p
                   style="  font-size: 14px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.8;letter-spacing: normal;text-align:center;color: var(--charcoal-grey);margin: 0px;padding-bottom: 15px;">
-                  <img src="./signs.svg" alt=""> Professional Safe keeping</p>
+                  <img src="./signs.svg" alt="tick"> Acquire NOC, Signage</p>
       
               </div>
             </div>
@@ -808,7 +809,7 @@
                 return;
             } 
             $.ajax({
-                url: 'http://qdesq.com:3000/api/userproperty/save',
+                url: 'http://stage.qdesq.com:3000/api/userproperty/save',
                 type: 'POST',
                 contentType: 'application/json',
                 data: JSON.stringify(leadDetail), 
