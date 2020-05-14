@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-    <g id="prefix__Group_4146" data-name="Group 4146" transform="rotate(-90 16 16)">
-        <g id="prefix__Rectangle_452" data-name="Rectangle 452" style="stroke:#a0a0a0;fill:none">
-            <rect width="32" height="32" rx="5" style="stroke:none"/>
-            <rect width="31" height="31" x=".5" y=".5" rx="4.5" style="fill:none"/>
-        </g>
-        <path id="prefix__keyboard_arrow_left-24px" d="M1.435 2.659L7.46 8.685l-5.8 5.8-.223.223C.829 15.316-.446 16.294.159 16.9s.946.606 1.552 0l7.128-7.128a1.546 1.546 0 0 0 0-2.19L1.711.454C1.105-.151.765-.151.159.454c-.59.606.67 1.6 1.275 2.205z" transform="translate(12.006 7.586)" style="fill:#3c3c47"/>
-    </g>
-</svg>
